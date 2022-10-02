@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB28C86728C9826200C061DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB28C86628C9826200C061DC /* AppDelegate.swift */; };
+		BB28C86928C9826200C061DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB28C86828C9826200C061DC /* SceneDelegate.swift */; };
+		BB28C86B28C9826200C061DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB28C86A28C9826200C061DC /* ViewController.swift */; };
+		BB28C86E28C9826200C061DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB28C86C28C9826200C061DC /* Main.storyboard */; };
+		BB28C87028C9826500C061DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB28C86F28C9826500C061DC /* Assets.xcassets */; };
+		BB28C87328C9826500C061DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB28C87128C9826500C061DC /* LaunchScreen.storyboard */; };
+		BB28C87F28C986C600C061DC /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB28C87E28C986C600C061DC /* Login.storyboard */; };
+		BB28C88128C9871700C061DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB28C88028C9871700C061DC /* LoginViewController.swift */; };
+		BB3094B028E2FFC300F380BC /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3094AF28E2FFC300F380BC /* LoginService.swift */; };
+		BB3094B328E3EA8500F380BC /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3094B228E3EA8500F380BC /* URLExtension.swift */; };
+		BB3094B928E4007300F380BC /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3094B828E4007300F380BC /* AlertManager.swift */; };
+		BB3094BB28E41DBC00F380BC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3094BA28E41DBC00F380BC /* Home.storyboard */; };
+		BB3094BD28E4220B00F380BC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3094BC28E4220B00F380BC /* HomeViewController.swift */; };
+		BB3094BF28E4290600F380BC /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3094BE28E4290600F380BC /* BaseService.swift */; };
+		BBAEDA4128EA47B7007006D0 /* JobCategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAEDA4028EA47B7007006D0 /* JobCategoryService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB28C86328C9826200C061DC /* Latihan Iglo Beyond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Latihan Iglo Beyond.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB28C86628C9826200C061DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB28C86828C9826200C061DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB28C86A28C9826200C061DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB28C86D28C9826200C061DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB28C86F28C9826500C061DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB28C87228C9826500C061DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB28C87428C9826500C061DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB28C87E28C986C600C061DC /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		BB28C88028C9871700C061DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BB3094AF28E2FFC300F380BC /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		BB3094B228E3EA8500F380BC /* URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
+		BB3094B828E4007300F380BC /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		BB3094BA28E41DBC00F380BC /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		BB3094BC28E4220B00F380BC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BB3094BE28E4290600F380BC /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		BBAEDA4028EA47B7007006D0 /* JobCategoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCategoryService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB28C86028C9826200C061DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB28C85A28C9826200C061DC = {
+			isa = PBXGroup;
+			children = (
+				BB28C86528C9826200C061DC /* Latihan Iglo Beyond */,
+				BB28C86428C9826200C061DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB28C86428C9826200C061DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB28C86328C9826200C061DC /* Latihan Iglo Beyond.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB28C86528C9826200C061DC /* Latihan Iglo Beyond */ = {
+			isa = PBXGroup;
+			children = (
+				BB3094B128E3EA7100F380BC /* Extension */,
+				BB3094AE28E19A7100F380BC /* Service */,
+				BB28C87D28C9867C00C061DC /* Resource */,
+				BB28C87C28C9867600C061DC /* Model */,
+				BB28C87B28C9867000C061DC /* View */,
+				BB28C87A28C9866800C061DC /* Controller */,
+				BB28C87428C9826500C061DC /* Info.plist */,
+			);
+			path = "Latihan Iglo Beyond";
+			sourceTree = "<group>";
+		};
+		BB28C87A28C9866800C061DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB28C86A28C9826200C061DC /* ViewController.swift */,
+				BB28C88028C9871700C061DC /* LoginViewController.swift */,
+				BB9187C028E555D000B6FBE3 /* Home */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB28C87B28C9867000C061DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB28C87128C9826500C061DC /* LaunchScreen.storyboard */,
+				BB28C86C28C9826200C061DC /* Main.storyboard */,
+				BB28C87E28C986C600C061DC /* Login.storyboard */,
+				BB3094BA28E41DBC00F380BC /* Home.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB28C87C28C9867600C061DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB28C87D28C9867C00C061DC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BB3094B828E4007300F380BC /* AlertManager.swift */,
+				BB28C86828C9826200C061DC /* SceneDelegate.swift */,
+				BB28C86628C9826200C061DC /* AppDelegate.swift */,
+				BB28C86F28C9826500C061DC /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BB3094AE28E19A7100F380BC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BB3094BE28E4290600F380BC /* BaseService.swift */,
+				BB3094AF28E2FFC300F380BC /* LoginService.swift */,
+				BBAEDA4028EA47B7007006D0 /* JobCategoryService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BB3094B128E3EA7100F380BC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BB3094B228E3EA8500F380BC /* URLExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BB9187C028E555D000B6FBE3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BB3094BC28E4220B00F380BC /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB28C86228C9826200C061DC /* Latihan Iglo Beyond */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB28C87728C9826500C061DC /* Build configuration list for PBXNativeTarget "Latihan Iglo Beyond" */;
+			buildPhases = (
+				BB28C85F28C9826200C061DC /* Sources */,
+				BB28C86028C9826200C061DC /* Frameworks */,
+				BB28C86128C9826200C061DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Latihan Iglo Beyond";
+			productName = "Latihan Iglo Beyond";
+			productReference = BB28C86328C9826200C061DC /* Latihan Iglo Beyond.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB28C85B28C9826200C061DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BB28C86228C9826200C061DC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = BB28C85E28C9826200C061DC /* Build configuration list for PBXProject "Latihan Iglo Beyond" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB28C85A28C9826200C061DC;
+			productRefGroup = BB28C86428C9826200C061DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB28C86228C9826200C061DC /* Latihan Iglo Beyond */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB28C86128C9826200C061DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB28C87F28C986C600C061DC /* Login.storyboard in Resources */,
+				BB3094BB28E41DBC00F380BC /* Home.storyboard in Resources */,
+				BB28C87328C9826500C061DC /* LaunchScreen.storyboard in Resources */,
+				BB28C87028C9826500C061DC /* Assets.xcassets in Resources */,
+				BB28C86E28C9826200C061DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB28C85F28C9826200C061DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB28C88128C9871700C061DC /* LoginViewController.swift in Sources */,
+				BB28C86B28C9826200C061DC /* ViewController.swift in Sources */,
+				BB28C86728C9826200C061DC /* AppDelegate.swift in Sources */,
+				BB3094BD28E4220B00F380BC /* HomeViewController.swift in Sources */,
+				BB28C86928C9826200C061DC /* SceneDelegate.swift in Sources */,
+				BB3094B028E2FFC300F380BC /* LoginService.swift in Sources */,
+				BB3094B928E4007300F380BC /* AlertManager.swift in Sources */,
+				BBAEDA4128EA47B7007006D0 /* JobCategoryService.swift in Sources */,
+				BB3094B328E3EA8500F380BC /* URLExtension.swift in Sources */,
+				BB3094BF28E4290600F380BC /* BaseService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB28C86C28C9826200C061DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB28C86D28C9826200C061DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB28C87128C9826500C061DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB28C87228C9826500C061DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB28C87528C9826500C061DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB28C87628C9826500C061DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB28C87828C9826500C061DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 933M28RU85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Latihan Iglo Beyond/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alwan.Latihan-Iglo-Beyond";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB28C87928C9826500C061DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 933M28RU85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Latihan Iglo Beyond/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alwan.Latihan-Iglo-Beyond";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB28C85E28C9826200C061DC /* Build configuration list for PBXProject "Latihan Iglo Beyond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB28C87528C9826500C061DC /* Debug */,
+				BB28C87628C9826500C061DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB28C87728C9826500C061DC /* Build configuration list for PBXNativeTarget "Latihan Iglo Beyond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB28C87828C9826500C061DC /* Debug */,
+				BB28C87928C9826500C061DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB28C85B28C9826200C061DC /* Project object */;
+}
